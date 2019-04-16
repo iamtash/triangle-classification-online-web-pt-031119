@@ -32,6 +32,9 @@ class Triangle
   end
 
   def kind
+    if self.min_num_illegal? || self.triangle_inequality_illegal?
+      raise TriangleError
+    elsif 
   end
 
   class TriangleError < StandardError
