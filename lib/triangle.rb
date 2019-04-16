@@ -7,7 +7,7 @@ class Triangle
   end
 
   def illegal
-    
+
   end
 
   def equilateral
