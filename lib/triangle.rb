@@ -5,7 +5,7 @@ class Triangle
   attr_reader :sides
 
   def initialize(a, b, c)
-    @sides = [a, b, b]
+    @sides = [a, b, c]
   end
 
   def min_num_illegal?
