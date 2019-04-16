@@ -34,7 +34,8 @@ class Triangle
   def kind
     if self.min_num_illegal? || self.triangle_inequality_illegal?
       raise TriangleError
-    elsif 
+    elsif self.equilateral?
+      :equilateral 
   end
 
   class TriangleError < StandardError
