@@ -24,7 +24,7 @@ class Triangle
   end
 
   def isosceles
-    
+
   end
 
   def scalene
