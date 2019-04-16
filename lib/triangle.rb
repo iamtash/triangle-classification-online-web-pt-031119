@@ -24,7 +24,7 @@ class Triangle
   end
 
   def isosceles
-
+    true if a == b || a == c || b == c 
   end
 
   def scalene
