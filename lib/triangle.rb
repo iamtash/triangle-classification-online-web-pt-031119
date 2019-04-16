@@ -16,10 +16,11 @@ class Triangle
   end
 
   def triangle_inequality_illegal?
-    true if a + b < c || a + c < b || b + c < a 
+    true if a + b < c || a + c < b || b + c < a
   end
 
   def equilateral
+    true if a == b && b == c
   end
 
   def isosceles
