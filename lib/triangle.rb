@@ -2,10 +2,13 @@ require 'pry'
 
 class Triangle
 
-  attr_reader :sides
+  attr_reader :sides, :a, :b, :c
 
   def initialize(a, b, c)
     @sides = [a, b, c]
+    @a = a
+    @b = b
+    @c = c
   end
 
   def min_num_illegal?
@@ -13,6 +16,7 @@ class Triangle
   end
 
   def triangle_inequality_illegal?
+
   end
 
   def equilateral
