@@ -1,3 +1,5 @@
+require 'pry'
+
 class Triangle
 
   attr_reader :sides
@@ -7,7 +9,7 @@ class Triangle
   end
 
   def min_num_illegal?
-
+    self.sides.any? {|side| side <= 0}
   end
 
   def triangle_inequality_illegal?
