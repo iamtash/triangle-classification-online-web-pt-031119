@@ -8,16 +8,16 @@ class Triangle
     @c = c
   end
 
-  def illegal 
+  def illegal
   end
 
-  def equilateral 
+  def equilateral
   end
 
-  def isosceles 
+  def isosceles
   end
 
-  def scalene 
+  def scalene
   end
 
   def kind
