@@ -6,8 +6,11 @@ class Triangle
     @sides = [a, b, b]
   end
 
-  def illegal
+  def min_num_illegal?
+    
+  end
 
+  def triangle_inequality_illegal?
   end
 
   def equilateral
