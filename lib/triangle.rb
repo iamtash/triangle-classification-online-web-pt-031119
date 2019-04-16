@@ -24,9 +24,11 @@ class Triangle
   end
 
   def isosceles
+    
   end
 
   def scalene
+    true if a != b && a!= c && b!= c
   end
 
   def kind
