@@ -19,15 +19,15 @@ class Triangle
     true if a + b < c || a + c < b || b + c < a
   end
 
-  def equilateral
+  def equilateral?
     true if a == b && b == c
   end
 
-  def isosceles
-    true if a == b || a == c || b == c 
+  def isosceles?
+    true if a == b || a == c || b == c
   end
 
-  def scalene
+  def scalene?
     true if a != b && a!= c && b!= c
   end
 
