@@ -7,7 +7,7 @@ class Triangle
   end
 
   def min_num_illegal?
-    
+
   end
 
   def triangle_inequality_illegal?
