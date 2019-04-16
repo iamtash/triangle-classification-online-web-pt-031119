@@ -35,7 +35,12 @@ class Triangle
     if self.min_num_illegal? || self.triangle_inequality_illegal?
       raise TriangleError
     elsif self.equilateral?
-      :equilateral 
+      :equilateral
+    elsif self.isosceles?
+      :isosceles
+    elsif self.scalene?
+      :scalene
+    end
   end
 
   class TriangleError < StandardError
