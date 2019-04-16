@@ -1,14 +1,13 @@
 class Triangle
 
-  attr_reader :a, :b, :c
+  attr_reader :sides
 
   def initialize(a, b, c)
-    @a = a
-    @b = b
-    @c = c
+    @sides = [a, b, b]
   end
 
   def illegal
+    
   end
 
   def equilateral
