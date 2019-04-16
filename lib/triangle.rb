@@ -9,6 +9,7 @@ class Triangle
   end
 
   def min_num_illegal?
+    binding.pry
     self.sides.any? {|side| side <= 0}
   end
 
